@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s ease;
+}
+*::selection {
+    background-color: #222222;
+    color: #f2f2f2;
+}
+body {
+    background-color: #f8f9fa;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.mainSection {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+/* NAVBAR */
+.navCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 66px;
+    padding: 4px 44px;
+    font-family: sans-serif;
+}
+.leftCont {
+    display: flex;
+    align-items: center;
+}
+.dashBtn {
+    height: 32px;
+    width: 32px;
+    font-size: 26px;
+    background-color: transparent;
+    border: none;
+}
+.logoCont {
+    display: flex;
+    align-items: center;
+    width: 222px;
+    height: 50px;
+    margin: 0 0 0 20px;
+}
+.mainLogo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.logoSec {
+    display: flex;
+    flex-direction: column;
+}
+.topLogo {
+    width: 120px;
+    height: 18px;
+}
+.botLogo {
+    width: 117px;
+    height: 13px;
+    margin: 5px 1.5px 0 1.5px;
+}
+.searchCont {
+    width: 476px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+.searchBar {
+    width: 406px;
+    height: 22px;
+    border: 1px solid #a2a9b1;
+    padding: 4px 8px 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1.2rem;
+}
+.searchBar label {
+    height: 20px;
+    width: 20px;
+    margin-left: 0.3rem;
+}
+.searchBar input[type="search"] {
+    height: 22px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+.searchBar input[type="search"]:focus {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.searchCont input[type="submit"] {
+    width: 70px;
+    height: 32px;
+    border-right: 1px solid #a2a9b1;
+    border-top: 1px solid #a2a9b1;
+    border-bottom: 1px solid #a2a9b1;
+    border-left: none;
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+.searchCont input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.rightCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.navA {
+    font-size: 14px;
+    text-decoration: none;
+}
+.navA:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.dotBtn {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    i {
+        font-size: 26px;
+    }
+}
+/* NAVBAR */
+
+/* SECTION */
+.cont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+hr {
+    background-color: #a2a9b1;
+}
+span {
+    font-weight: bold;
+}
+.alignFix {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+/* LEFTBAR */
+.leftBar {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.leftBarCont {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+.leftBarCont a {
+    text-decoration: none;
+}
+.leftBarCont a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* LEFTBAR */
+
+/* SECTION */
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 2rem 0 2rem;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header h1 {
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'Source Serif Pro', serif;
+    font-size: 28.8px;
+    font-weight: 100;
+    color: #101418;
+}
+.transBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+}
+.transBtn:hover {
+    background-color: rgba(51, 102, 204, 0.102);
+    cursor: pointer;
+}
+.transBtn i {
+    color: #36c;
+}
+.transBtn input[type="button"] {
+    color: #36c;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+.transBtn input[type="button"]:hover {
+    cursor: pointer;
+}
+.transBtn i:hover {
+    cursor: pointer;
+}
+.paraFix {
+    margin-top: 0.5rem;
+}
+.warn {
+    height: 161px;
+    display: flex;
+    align-items: center;
+    padding: 2px 4px 2px 4px;
+    gap: 0.5rem;
+    width: 80%;
+    color: #202122;
+    background-color: #f8f9fa;
+    border-left: 0.5rem solid #F28500;
+    border-top: 1px solid #a2a9b1;
+    border-bottom: 1px solid #a2a9b1;
+    border-right: 1px solid #a2a9b1;
+}
+.warnCont {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.important {
+    height: 40px;
+    width: 40px;
+}
+.paraCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    gap: 0.5rem;
+}
+.para {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #202122;
+    word-spacing: 6px;
+}
+.endPara {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #202122;
+    font-style: italic;
+}
+/* SECTION */
+
+/* RIGHTBAR */
+.rightBar {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+/* RIGHTBAR */
+
+/* SECTION */
